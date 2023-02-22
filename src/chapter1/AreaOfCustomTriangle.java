@@ -6,10 +6,10 @@ public class AreaOfCustomTriangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter the base of the triangle: ");
+        System.out.print("Please enter the base of the triangle: ");
         double base = scanner.nextDouble();
 
-        System.out.println("Please enter the height of the triangle: ");
+        System.out.print("Please enter the height of the triangle: ");
         double height = scanner.nextDouble();
         double area = 0.5 * (base * height);
 
